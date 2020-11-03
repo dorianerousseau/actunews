@@ -1,3 +1,7 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+index: # je choisis le nom de ma route. ⚠ Pas de doublon️.
+    path: / # ma route
+    controller: App\Controller\DefaultController::index
+
+contact:
+    path: /page/contact
+    controller: App\Controller\DefaultController::contact
